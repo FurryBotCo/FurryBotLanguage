@@ -309,8 +309,9 @@
 		"description": "Who's a good boi?!",
 		"usage": "[@user]",
 		"me": "Yip! Yip! I am!",
+		"self": "You are!",
 		"other": "Yip! Yip! {0} is!",
-		"meBad": [
+		"selfBad": [
 			"Anyone but you.",
 			"Not you.",
 			"Everyone that isn't you."
