@@ -298,13 +298,6 @@
 			"<@!{0}> wags their little tail, aren't they cute ^-^"
 		]
 	},
-	"weirdedit": {
-		"description": "Make a message with a weird little edit thing.",
-		"usage": "some, text",
-		"missing0": "First text missing. You must provide some text separated by commas.",
-		"missing1": "Second text missing. You must provide some text separated by commas.",
-		"edited": "This message will be edited soon."
-	},
 	"whosagoodboi": {
 		"description": "Who's a good boi?!",
 		"usage": "[@user]",
