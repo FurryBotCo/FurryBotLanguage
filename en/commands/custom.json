@@ -1,0 +1,6 @@
+{
+	"apikey": {
+		"usage": null,
+		"description": "Get an api key for our api, yiff.rest."
+	}
+}
