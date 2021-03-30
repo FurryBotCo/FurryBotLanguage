@@ -7,5 +7,7 @@
 	"join": "There was an error while executing that. You can report this in our Discord server: <{0}>\nCode: `{1}`\n\n**{2}: {3}**",
 	"noStats": "Stats have not been processed yet, please wait a bit longer to execute this command.",
 	"permissionMissing": "I am missing the `{0}` permission to be able to run this properly!",
-	"unknown": "Unknown error."
+	"unknown": "Unknown error.",
+	"redisNotReady": "Redis is not ready yet, try again later.",
+	"dbNotReady": "Our database is not ready yet, try again later."
 }
