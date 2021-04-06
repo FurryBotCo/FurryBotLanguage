@@ -9,5 +9,6 @@
 	"permissionMissing": "I am missing the `{0}` permission to be able to run this properly!",
 	"unknown": "Unknown error.",
 	"redisNotReady": "Redis is not ready yet, try again later.",
-	"dbNotReady": "Our database is not ready yet, try again later."
+	"dbNotReady": "Our database is not ready yet, try again later.",
+	"collectorTimeout": "You took too long to response, please try again."
 }
