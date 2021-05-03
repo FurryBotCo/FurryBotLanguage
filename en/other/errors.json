@@ -10,5 +10,7 @@
 	"unknown": "Unknown error.",
 	"redisNotReady": "Redis is not ready yet, try again later.",
 	"dbNotReady": "Our database is not ready yet, try again later.",
-	"collectorTimeout": "You took too long to response, please try again."
+	"collectionTimeout": "You took too long to respond, please try again.",
+	"userCancelled": "You cancelled.",
+	"invalidSelection": "The selection you made was invalid. Provide a valid number between {0} and {1}."
 }

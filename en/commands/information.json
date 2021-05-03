@@ -76,6 +76,7 @@
 	"sinfo": {
 		"description": "Get some info about the current server.",
 		"usage": "[help/channels/members/server/banner/splash]",
+		"sectionDesc": "The section to get info on",
 		"verification": {
 			"none": "NONE",
 			"noneDesc": "unrestricted",
@@ -104,7 +105,7 @@
 		"2faRequirement": "2FA Requirement",
 		"defaultNotificationsLabel": "Default Notifications",
 		"vanityUrl": "Vanity URL",
-		"noteContent": "Sftatus counts are based on cached users, and may not include all server members",
+		"noteContent": "Status counts are based on cached users, and may not include all server members",
 		"hiddenYou": "Hidden (for you)",
 		"visibleYou": "Visible (for you)",
 		"hiddenMe": "Hidden (for me)",
@@ -117,6 +118,7 @@
 	"stats": {
 		"description": "Get some statistics about me.",
 		"usage": "",
+		"sectionDesc": "The subsection to get stats for.",
 		"titleGeneral": "General Stats",
 		"titleCommand": "Command Stats",
 		"commandsNum": "Commands #{0}",
@@ -142,6 +144,7 @@
 	"uinfo": {
 		"description": "Get some info about a user.",
 		"usage": "[@member/id]",
+		"userDesc": "The user to get info about.",
 		"title": "User Info",
 		"mainInfo": "Main Info",
 		"joinDate": "Server Join Date",
@@ -158,6 +161,7 @@
 	"whoplays": {
 		"description": "Get a list of users playing the specified game.",
 		"usage": "<game>",
+		"gameDesc": "The game string to search for.",
 		"title": "Who Is Playing: {0}",
 		"titleGlobal": "Who Is Playing (Globally): {0}",
 		"total": "Total: **{0}**",

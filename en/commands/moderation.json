@@ -1,0 +1,261 @@
+{
+	"ban": {
+		"description": "Ban members from your server.",
+		"usage": "<@member/id> [reason] [delete days] | [time]",
+		"userDesc": "The user to ban.",
+		"reasonDesc": "The reason for banning them.",
+		"deleteDaysDesc": "The days to delete their messages.",
+		"timeDesc": "The time to keep them banned.",
+		"deleteLessThan": "delete days cannot be less than zero.",
+		"deleteMoreThan": "delete days cannot be more than 7.",
+		"timeLessThan": "time cannot be less than one (1).",
+		"timeInvalid": "invalid time.",
+		"alreadyBanned": "User already banned",
+		"alreadyBannedDesc": "It looks like **{0}** is already banned here..",
+		"noBanSelf": "pretty sure you don't want to do this to yourself.",
+		"noBanOwner": "you cannot ban the server owner.",
+		"noBanOther": "you cannot ban **{0}** as their highest role is higher than yours!",
+		"meNoBan": "I cannot ban **{0}**, as their highest role is higher than, or as high as mine.",
+		"noReason": "No Reason Specified.",
+		"userBanned": "User {0} was banned, {2}",
+		"userBannedTimed": "User {0} was banned for {1}, {2}",
+		"couldNotBan": "I couldn't ban **{0}**, {1}",
+		"englishOnly": "The provided reason must be comprised of English characters only."
+	},
+	"kick": {
+		"description": "Kick members from your server.",
+		"usage": "<@member/id> [reason]",
+		"userDesc": "The user to kick.",
+		"reasonDesc": "The reason for kicking them.",
+		"noKickSelf": "Pretty sure you don't want to do this to yourself.",
+		"dm": "You were kicked from **{0}**.\nReason: {1}",
+		"noKickOther": "you cannot kick **{0}** as their highest role is higher than yours!",
+		"meNoKick": "I cannot kick **{0}**, as their highest role is higher than, or as high as mine.",
+		"userKicked": "User {0} was kicked, {1}",
+		"couldNotKick": "I couldn't kick **{0}**, {1}",
+		"englishOnly": "The provided reason must be comprised of English characters only.",
+		"noKickOwner": "you cannot kick the server owner."
+	},
+	"lock": {
+		"description": "Lock a channel to prevent people talking in it.",
+		"usage": "[channel]",
+		"channelDesc": "The channel to lock (current if not provided)",
+		"alreadyDeniedThis": "the send messages permission seems to already be denied in this channel",
+		"alreadyDeniedThat": "the send messages permission seems to already be denied on that channel",
+		"executed": "lock executed.\nNote: This lock will not work if a user has the `administrator` permission, or if `send messages` is ticked to yes in the channels permission overrides."
+	},
+	"lockdown": {
+		"description": "Lock all channels in the server.",
+		"usage": "",
+		"alreadyDone": "The server seems to be locked down already. If you believe this is an error, please ask for help in our support server. (`support` command)",
+		"finished": "Lockdown finished. Updated **{0}** channels."
+	},
+	"modlog": {
+		"description": "Manage this servers modlog.",
+		"usage": "[setup/get/reset]",
+		"help": {
+			"noInclude": "Do not include the `<>` when running commands.",
+			"main": "This command consists of several subcommands.",
+			"setup": "Setup the modlog.",
+			"get": "Get the current modlog.",
+			"reset": "Reset the modlog."
+		},
+		"setup": {
+			"missingPermission": "I'm missing the permission **{0}** in the channel <#{1}>.",
+			"done": "Successfully set the modlog to use the channel <#{0}>, via the webhook **{1}** (`{2}`). You can reset this via `{3}modlog reset`.",
+			"created": "You can customize the webhook we created in the settings of this channel.",
+			"alreadySet": "The modlog is already set to that channel. If there's an issue, use `{0}modlog reset`.",
+			"select": "Please make a selection (number only) from the following for your modlog setup.\n\n**1.)** Use an existing webhook (in <#{0}>)\n**2.)** Use an existing webhook (direct url)\n**3.)** Create a new webhook",
+			"select1": "Select a webhook from below.\n\n{0}",
+			"select2": "Please provide a full webhook url.",
+			"noWebhooksChannel": "This channel has no webhooks.",
+			"noWebhooksServer": "This server has no webhooks.",
+			"invalidURL": "The provided webhook url is not valid.",
+			"invalidWebhook": "The webhook you provided is either invalid, or not a part of this server.",
+			"testEmbed": {
+				"title": "Modlog Successfully Setup",
+				"desc": "This channel has been set as this servers modlog, using this webhook. All moderation actions via <@!{0}> will send a message here.\n\nYou can manage the modlog via `{1}modlog`."
+			}
+		},
+		"reset": {
+			"notEnabled": "The modlog is not currently enabled.",
+			"done": "Reset the modlog.",
+			"doneWebhook": "Reset the modlog (and deleted the webhook `{0}`).",
+			"removeWebhook": "Do you want me to remove the webhook that was used (id: `{0}`)? Answer **yes** or **no**."
+		},
+		"get": {
+			"notEnabled": "The modlog is not currently enabled.",
+			"title": "Current Modlog Configuration",
+			"desc": "Posting to <#{0}> via **{1}** (`{2}`)"
+		}
+	},
+	"mute": {
+		"description": "Stop someone from chatting.",
+		"usage": "<@member/id> [reason] | [time]",
+		"userDesc": "The user to mute.",
+		"reasonDesc": "The reason for the mute.",
+		"timeDesc": "The time for the mute.",
+		"tooLittleTime": "time cannot be less than one (1).",
+		"invalidTime": "invalid time.",
+		"noMuteOther": "you cannot mute **{0}** as their highest role is higher than yours!",
+		"noReason": "No Reason Specified.",
+		"muted": "User {0} was muted, {2}",
+		"mutedTimed": "User {0} was muted for {1}, {2}",
+		"couldNotMute": "I couldn't mute **{0}**, {1}",
+		"noRole": "No mute role",
+		"noRoleDesc": "this server does not have a mute role set, you can set this with `{0}settings mute role <role>`",
+		"roleNotFound": "Mute role not found",
+		"roleNotFoundDesc": "The mute role specified for this server <@&{0}> ({1}) was not found, it has been reset. You can set a new one with `{2}settings mute role <role>`",
+		"invalidRole": "Invalid mute role",
+		"invalidRoleDesc": "The current mute role <@&{0}> ({1}) seems to be higher than me, please move it below me. You can set a new one with `{2}settings mute role <role>`",
+		"alreadyMuted": "User already muted",
+		"alreadyMutedDesc": "The user **{0}** seems to already be muted.. You can unmute them with `{1}unmute {0} [reason]`",
+		"englishOnly": "The provided reason must be comprised of English characters only."
+	},
+	"purge": {
+		"description": "Clear messages in a channel.",
+		"usage": "<2-1000>",
+		"amountDesc": "An amount of messages to delete, between 2 and 1000.",
+		"done": "Purged **{0}** messages.",
+		"amount": "please provide a valid number between two (2) and 1000.",
+		"skipped": "Skipped {0} message(s), reason: they are over 2 weeks old.\nNote: this is a technical limitation from Discord, not us."
+	},
+	"reason": {
+		"description": "Change the reason for a modlog entry",
+		"usage": "<id> <reason>",
+		"idDesc": "The id of the modlog entry to edit.",
+		"reasonDesc": "The new reason to set.",
+		"invalidId": "invalid id \"{0}\" provided.",
+		"noModlog": "I couldn't find the mod log for this server, so previous entries cannot be edited.",
+		"noMessage": "The specified entry ({0}) does not have a message id associated with it, so it cannot be edited.",
+		"messageNotFound": "The message for that entry could not be found. If the mod log channel has changed, the entry cannot be edited.",
+		"badlyFormed": "The embed for the mod log entry seems to be badly formed, it cannot be edited.",
+		"englishOnly": "The provided reason must be comprised of English characters only.",
+		"tooLong": "That reason is too long, it must be at most 200 characters.",
+		"edited": "The reason for case **#{0}** has been updated to \"{1}\"."
+	},
+	"setup-mutes": {
+		"description": "Setup mutes in this server.",
+		"usage": "",
+		"noRole": "No mute role has been setup. You can set one up by using `{0}settings mute role @Role`",
+		"confirm": "This will update **{0}** channels, and this action is not reversible. Are you sure? **yes** or **no**.",
+		"confirmOne": "This will update **1** channel, and this action is not reversible. Are you sure? **yes** or **no**.",
+		"canceled": "Canceled due to timeout, invalid response, or general cancellation.",
+		"inProgress": "Updating **{0}** channels, please be patient...",
+		"inProgressOne": "Updating **1** channel, please be patient...",
+		"_": "Do not translate \"yes\" or \"no\", they are literal values.",
+		"done": "Finished updating **{0}** channels.",
+		"doneOne": "Finished updating **1** channel.",
+		"none": "It seems like everything's already properly setup here."
+	},
+	"softban": {
+		"description": "Ban someone, then immediately unban them.",
+		"usage": "<@member/id> [reason] [deleteDays]",
+		"userDesc": "The user to ban.",
+		"reasonDesc": "The reason for banning them.",
+		"deleteDaysDesc": "The days to delete their messages.",
+		"deleteLessThan": "delete days cannot be less than zero.",
+		"deleteMoreThan": "delete days cannot be more than 7.",
+		"alredyBanned": "User already banned",
+		"alreadyBannedDesc": "It looks like **{0}** is already banned here..",
+		"noSoftBanSelf": "pretty sure you don't want to do this to yourself.",
+		"noSoftBanOwner": "you cannot softban the server owner.",
+		"noSoftBanOther": "you cannot softban **{0}** as their highest role is higher than yours!",
+		"meNoSoftBan": "I cannot soft softban **{0}**, as their highest role is higher than, or as high as mine.",
+		"noReason": "No Reason Specified.",
+		"userSoftBanned": "User {0} was softbanned, {1}",
+		"couldNotSoftBan": "I couldn't softban **{0}**, {1}",
+		"englishOnly": "The provided reason must be comprised of English characters only."
+	},
+	"unban": {
+		"description": "Remove bans for people that have already been banned.",
+		"usage": "<id> [reason]",
+		"userDesc": "The user to unban.",
+		"reasonDesc": "The reason for unbanning them.",
+		"notBanned": "User not banned",
+		"notBannedDesc": "It doesn't look like {0} is banned here..",
+		"noReason": "No Reason Specified.",
+		"unbanned": "Unbanned {0}, {1}",
+		"couldNotUnban": "I couldn't unban **{0}**, {1}",
+		"englishOnly": "The provided reason must be comprised of English characters only."
+	},
+	"unlock": {
+		"description": "Unlock a channel after it has been locked.",
+		"usage": "[channel]",
+		"channelDesc": "The channel to lock (current if not provided)",
+		"thisNotLocked": "this channel doesn't seem to be locked.",
+		"thatNotLocked": "that channel doesn't seem to be locked.",
+		"removed": "lock removed."
+	},
+	"unlockdown": {
+		"description": "Unlock all channels in the server.",
+		"usage": "",
+		"notDone": "The server does not seem to be locked down. If you believe this is an error, please ask for help in our support server. (`support` command)",
+		"finished": "Unlockdown finished. Updated **{0}** channels."
+	},
+	"unmute": {
+		"description": "Remove a mute from someone.",
+		"usage": "<@member/id> [reason]",
+		"userDesc": "The user to mute.",
+		"reasonDesc": "The reason for the mute.",
+		"noRole": "No mute role",
+		"noRoleDesc": "this server does not have a mute role set, you can set this with `{0}settings mute role <role>`",
+		"roleNotFound": "Mute role not found",
+		"roleNotFoundDesc": "The mute role specified for this server <@&{0}> ({1}) was not found, it has been reset. You can set a new one with `{2}settings mute role <role>`",
+		"invalidRole": "Invalid mute role",
+		"invalidRoleDesc": "The current mute role <@&{0}> ({1}) seems to be higher than me, please move it below me. You can set a new one with `{2}settings mute role <role>`",
+		"notMuted": "User not muted",
+		"notMutedDesc": "The user **{0}** seems to not be muted.. You can mute them with `${1}mute {0} [reason]`",
+		"unmuted": "User {0} was unmuted, {1}",
+		"couldNotUnmute": "I couldn't unmute **{0}**, {1}",
+		"englishOnly": "The provided reason must be comprised of English characters only."
+	},
+	"warn": {
+		"description": "Add a warning to someone.",
+		"usage": "<@member/id> [reason]",
+		"userDesc": "The user to warn.",
+		"reasonDesc": "The reason for the warning.",
+		"noReason": "None Provided",
+		"reasonTooLong": "",
+		"warned": "User {0} was warned, {1}"
+	},
+	"warnings": {
+		"description": "Manage/view the a users warnings.",
+		"usage": "<list/remove/clear> <user>",
+		"missingPerm": "You are missing the required permission **{0}** to run this.",
+		"help": {
+			"title": "Command Help",
+			"subNotice": "This command is made up of subcommands. Provide one as the first argument to use it.",
+			"requiresPerm1": "Requires the `{0}` permission.",
+			"requiresPerm2": "The permission `{0}` is required for this subcommand.",
+			"listDesc": "List the warnings a user has.",
+			"removeDesc": "Remove a warning from a user.",
+			"clearDesc": "Clear a users warnings.",
+			"noPerms": "No permissions are required for this subcommand.",
+			"example": "Example: `{0}warnings list <user>`"
+		},
+		"list": {
+			"userDesc": "The user to list the warnings of.",
+			"pageDesc": "The page of warnings to see.",
+			"noWarnings": "The user **{0}** has no warnings to list.",
+			"invalidPage": "Invalid page number **{0}**, there are only **{1}** pages available.",
+			"title": "Warnings for {0}",
+			"num": "Warning #{0}",
+			"reasonTooLong": "[REASON TOO LONG TO DISPLAY]",
+			"dateFormat": "Date Format",
+			"devOnlyFlag": "The flag you provided is only accessible to developers."
+		},
+		"remove": {
+			"userDesc": "The user to remove a warning from.",
+			"idDesc": "The warning id to remove.",
+			"noWarnings": "The user **{0}** has no warnings to remove.",
+			"invalidId": "Invalid id **{0}** provided, this user has **{1}** warnings.",
+			"done": "Removed the warning **#{0}** for **{1}**."
+		},
+		"clear": {
+			"userDesc": "The user to clear the warnings of.",
+			"noWarnings": "The user **{0}** has no warnings to clear.",
+			"done": "Removed **{0}** warnings from the user **{1}**."
+		}
+	}
+}

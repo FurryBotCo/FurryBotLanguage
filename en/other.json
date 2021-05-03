@@ -30,13 +30,14 @@
 		"user": "You have been blacklisted. Blame: {0}. Reason: {1}. Expiry: {2}. You can appeal here: {3}"
 	},
 	"channelType": {
-		"0": "Text",
-		"1": "Direct Message",
-		"2": "Voice",
-		"3": "Group Direct Message",
-		"4": "Category",
-		"5": "News",
-		"6": "Store"
+		"0": "text",
+		"1": "direct message",
+		"2": "voice",
+		"3": "group direct message",
+		"4": "category",
+		"5": "news",
+		"6": "store",
+		"13": "stage"
 	},
 	"dayOfWeek": {
 		"0": "Sunday",

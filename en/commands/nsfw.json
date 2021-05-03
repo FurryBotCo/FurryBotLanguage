@@ -7,6 +7,9 @@
 	"e621": {
 		"description": "Search for posts on e621.",
 		"usage": "[tags]",
+		"tagsDesc": "The tags to search for.",
+		"hideFlashDesc": "If flash results should be excluded.",
+		"hideVideoDesc": "If video results should be excluded.",
 		"permsRequired": "This command requires me to have the permission `manageMessages` (for reactions).",
 		"loading": "Loading...",
 		"num": "Post {0}/{1}",
@@ -31,6 +34,7 @@
 	"yiff": {
 		"description": "Get a yiff image.",
 		"usage": "[gay/straight/lesbian/gynomorph]",
+		"typeDesc": "The type of yiff to get.",
 		"titles": {
 			"gay": "Gay Yiff",
 			"straight": "Straight Yiff",
