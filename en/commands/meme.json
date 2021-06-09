@@ -32,7 +32,9 @@
 	"bed": {
 		"description": "There's something scary under the bed",
 		"usage": "[@user] [@user]",
-		"title": "Why do you hate me"
+		"title": "Why do you hate me",
+		"user1Desc": "The first user",
+		"user2Desc": "The second user"
 	},
 	"bongocat": {
 		"description": "I'm a cat I play the bongos",
@@ -47,7 +49,11 @@
 	"brain": {
 		"description": "big brain time",
 		"usage": "<first, second, third, fourth>",
-		"title": "Big Brain Time"
+		"title": "Big Brain Time",
+		"firstDesc": "The first text section",
+		"secondDesc": "The second text section",
+		"thirdDesc": "The third text section",
+		"fourthDesc": "The fourth text section"
 	},
 	"brazzers": {
 		"description": "😏",
@@ -96,7 +102,9 @@
 	},
 	"crab": {
 		"description": "🦀 crab rave 🦀",
-		"usage": "<first, second>"
+		"usage": "<first, second>",
+		"firstDesc": "The first text section",
+		"secondDesc": "The second text section"
 	},
 	"cry": {
 		"description": "we need water",
@@ -191,7 +199,8 @@
 	"gay": {
 		"description": "gay",
 		"usage": "[@user]",
-		"title": "🏳️‍🌈"
+		"title": "🏳️‍🌈",
+		"userDesc": "The user to gay-ify (none for yourself)"
 	},
 	"godwhy": {
 		"description": "god why",
@@ -257,7 +266,8 @@
 	"magik": {
 		"description": "Magic 'n' shit",
 		"usage": "[@user]",
-		"title": "Magik"
+		"title": "Magik",
+		"userDesc": "The user to magik (none for yourself)"
 	},
 	"master": {
 		"description": "master",
@@ -413,7 +423,8 @@
 	"warp": {
 		"description": "warp an image",
 		"usage": "[@user]",
-		"title": "Warped"
+		"title": "Warped",
+		"userDesc": "The user to warp (none for yourself)"
 	},
 	"yomomma": {
 		"description": "get a yomomma joke",

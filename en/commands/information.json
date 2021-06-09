@@ -139,7 +139,9 @@
 		"devOnly": "This section is for developers only.",
 		"botInvites": "Bot Invite Sources",
 		"eventsNum": "Events #{0}",
-		"interval": "All per second stats are calculated over a 15 second period."
+		"interval": "All per second stats are calculated over a 15 second period.",
+		"dbRead": "Read Operations",
+		"dbWrite": "Write Operations"
 	},
 	"uinfo": {
 		"description": "Get some info about a user.",
@@ -166,6 +168,7 @@
 		"titleGlobal": "Who Is Playing (Globally): {0}",
 		"total": "Total: **{0}**",
 		"limit": "There are too many people playing this game to display them separately.",
-		"globalNote": "You can add `--global` after the game to search globally."
+		"globalNote": "You can add `--global` after the game to search globally.",
+		"globalDesc": "If we should search across all servers."
 	}
 }

@@ -92,7 +92,6 @@
 	"messages": "messages",
 	"minutes": "minutes",
 	"mobile": "mobile",
-	"mongodb": "Mongo DB",
 	"name": "name",
 	"never": "never",
 	"new": "new",
@@ -186,5 +185,8 @@
 	"news": "news",
 	"store": "store",
 	"inviteSplash": "invite splash",
-	"tag": "tag"
+	"tag": "tag",
+	"sec": "sec",
+	"rethinkdb": "RethinkDB",
+	"pending": "pending"
 }

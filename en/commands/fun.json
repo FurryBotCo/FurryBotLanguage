@@ -17,7 +17,8 @@
 			"Very doubtful",
 			"Concentrate and ask again",
 			"As I see it, yes"
-		]
+		],
+		"questionDesc": "The question to ask the magic 8ball."
 	},
 	"awoo": {
 		"description": "Start a howl, or join in!",
@@ -39,7 +40,8 @@
 		"possible": [
 			"<@!{0}> smacks {1} hard on the snoot with a rolled up news paper!",
 			"<@!{0}> goes to smack {1} on the snoot with a news paper, but missed and hit themself!"
-		]
+		],
+		"userDesc": "The user to bap"
 	},
 	"bellyrub": {
 		"description": "Give someone a nice belly rub -w-",
@@ -62,7 +64,8 @@
 		"possible": [
 			"<@!{0}> has booped {1}!\nOwO",
 			"<@!{0}> lightly pokes the nose of {1}!\nOwO"
-		]
+		],
+		"userDesc": "The user to boop"
 	},
 	"conga": {
 		"description": "Start a conga with someone, or join in!",
@@ -79,7 +82,8 @@
 		"possible": [
 			"<@!{0}> has cuddled {1}\nThey're so cute",
 			"<@!{0}> sneaks up behind {1} and cuddles them\nIsn't that sweet"
-		]
+		],
+		"userDesc": "The user to cuddle"
 	},
 	"dadjoke": {
 		"description": "Get a dadjoke",
@@ -89,7 +93,9 @@
 		"description": "Roll the dice.",
 		"usage": "[min] [max]",
 		"minLess": "the minimum must be less than the maximum.",
-		"text": "you rolled a {0}!"
+		"text": "you rolled a {0}!",
+		"minDesc": "The minimum number to chose.",
+		"maxDesc": "The maximum number to chose."
 	},
 	"dictionary": {
 		"description": "Throw a dictionary at someone to teach them some knowledge!",
@@ -98,7 +104,8 @@
 			"<@!{0}> throws a dictionary at {1} screaming \"KNOWLEDGE\"!",
 			"<@!{0}> drops some knowledge on {1}, with their dictionary!",
 			"<@!{0}> drops their entire english folder onto {1}, it seems to have flattened them!"
-		]
+		],
+		"userDesc": "The user to throw a dictionary at"
 	},
 	"divorce": {
 		"description": "Revoke your marriage..",
@@ -127,7 +134,8 @@
 		"possible": [
 			"<@!{0}> flops over onto {1}!\nOof",
 			"<@!{0}> lays on {1}.. owo"
-		]
+		],
+		"userDesc": "The user to flop on"
 	},
 	"furpile": {
 		"description": "Start a furpile on someone, or join in!",
@@ -135,14 +143,16 @@
 		"join": "<@!{0}> joined a furpile with {1} other furs!\nThis furpile now has {2} furs in it!\nJoin in using `{3}furpile`",
 		"start": "<@!{0}> started a furpile on <@!{1}>!\nJoin in using `{2}furpile`.",
 		"alreadyPresent": "you are already in this furpile!",
-		"noSelf": "you cannot start a furpile on yourself!"
+		"noSelf": "you cannot start a furpile on yourself!",
+		"userDesc": "The user to start a furpile on"
 	},
 	"gayrate": {
 		"description": "Get someone's gayness!",
 		"usage": "[@user/id]",
 		"title": "{0}'s Gayness!",
 		"percentSelf": "You are **{1}**% gay!",
-		"percentOther": "{0} is **{1}**% gay!"
+		"percentOther": "{0} is **{1}**% gay!",
+		"userDesc": "The user to rate the gayness of (none for yourself)"
 	},
 	"giphy": {
 		"description": "Get a gif from giphy",
@@ -156,7 +166,8 @@
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> pounced onto {1}, tackling them to the floor in a giant hug! <@!{0}> whispers \"I love you~\" quietly into {1}'s ear."
-		]
+		],
+		"userDesc": "The user to glomp"
 	},
 	"huff": {
 		"description": "Blow someone's house down..",
@@ -172,7 +183,8 @@
 			"<@!{0}> sneaks up behind {1}, and when they aren't looking, tackles them from behind in the biggest hug ever!",
 			"<@!{0}> gently wraps their arms around {1}!",
 			"<@!{0}> wraps their arms around {1}, giving them a big warm hug"
-		]
+		],
+		"userDesc": "The user to hug"
 	},
 	"impostor": {
 		"description": "You're an impostor.",
@@ -180,7 +192,8 @@
 		"possible": [
 			"{0} was An Impostor.",
 			"{0} was not An Impostor."
-		]
+		],
+		"userDesc": "The user to detect 👀"
 	},
 	"kiss": {
 		"description": "Kiss someone 0.0",
@@ -188,7 +201,8 @@
 		"possible": [
 			"<@!{0}> kisses {1}\nThey must be in love!\n:blue_heart:",
 			"<@!{0}> kisses {1}\nCute!"
-		]
+		],
+		"userDesc": "The user to kiss"
 	},
 	"lick": {
 		"description": "Lick someone.. owo",
@@ -196,7 +210,8 @@
 		"possible": [
 			"<@!{0}> licks {1}\nUwU",
 			"<@!{0}> decides to make {1}'s fur a little slimy...'"
-		]
+		],
+		"userDesc": "The user to lick"
 	},
 	"marry": {
 		"description": "Promose to someone!",
@@ -212,21 +227,24 @@
 		"denied": "Better luck next time!",
 		"devOnly": "Only developers may use the \"force\" option.",
 		"noSelf": "You cannot marry yourself.",
-		"noBot": "You cannot marry a bot."
+		"noBot": "You cannot marry a bot.",
+		"userDesc": "The user to marry"
 	},
 	"nap": {
 		"description": "Flop onto someone.. then take a nap?",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> decided to take a nap on {1}.. {1} might need a forklift for this one!"
-		]
+		],
+		"userDesc": "The user to take a nap on"
 	},
 	"nuzzle": {
 		"description": "Nuzzle someone!",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> nuzzles {1} gently\nIsn't that cute!"
-		]
+		],
+		"userDesc": "The user to nuzzle"
 	},
 	"pat": {
 		"description": "Pat someone uwu",
@@ -234,62 +252,72 @@
 		"possible": [
 			"<@!{0}> pats {1} on the head for being a good boi (or girl/other)",
 			"<@!{0}> gently pets {1}"
-		]
+		],
+		"userDesc": "The user to pat"
 	},
 	"poke": {
 		"description": "Poke someone!",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> pokes {1}\nDon't make them mad.."
-		]
+		],
+		"userDesc": "The user to poke"
 	},
 	"pounce": {
 		"description": "Pounce on someone! uwu",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> pounces onto {1} uwu"
-		]
+		],
+		"userDesc": "The user to pounce on"
 	},
 	"russianroulette": {
 		"description": "Play Russian Roulette",
 		"usage": "[bullets]",
 		"die": "You Died!",
-		"live": "You Lived!"
+		"live": "You Lived!",
+		"bulletsDesc": "The amount of bullets in the chamber"
 	},
 	"ship": {
 		"description": "Ship some people!",
 		"usage": "[@member1] [@member2]",
 		"devOnlyOption": "this option, `{0}` is developer only.",
 		"title": "Shipping Users",
-		"text": "Shipping <@!{0}> and <@!{1}>\n**{2}**% - {3}"
+		"text": "Shipping <@!{0}> and <@!{1}>\n**{2}**% - {3}",
+		"user1Desc": "The first user to ship",
+		"user2Desc": "The user to ship the first person with"
 	},
 	"slap": {
 		"description": "Slap someone..",
 		"possible": [
 			"<@!{0}> slaps {1}.. ouch"
 		],
-		"usage": "<@member/text>"
+		"usage": "<@member/text>",
+		"userDesc": "The user to slap"
 	},
 	"sniff": {
 		"description": "Sniff someone..?",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> siffs {1}\nMaybe they smell good..?"
-		]
+		],
+		"userDesc": "The user to sniff"
 	},
 	"snowball": {
 		"description": "Throw a snowball at someone!",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> throws a snowball at {1}!"
-		]
+		],
+		"userDesc": "The user to throw a snowball at"
 	},
 	"spray": {
 		"description": "Spray someone with a bottle of water..",
 		"usage": "<@member/text>",
 		"possible": [
 			"<@!{0}> sprays {1} with a bottle of water, yelling \"bad fur\"!"
-		]
+		],
+		"userDesc": "The user to spray"
 	},
 	"wag": {
 		"description": "Wag your little tail!",
@@ -313,6 +341,12 @@
 			"Definitely not them.",
 			"Anyone but them.",
 			"Literally anyone else."
-		]
+		],
+		"userDesc": "The user to use the goodboi detector on (nothing for yourself)"
+	},
+	"fursuit": {
+		"description": "Get a picture of a fursuit.",
+		"usage": "",
+		"title": "Fursuit"
 	}
 }
